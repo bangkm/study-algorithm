@@ -3,6 +3,7 @@ times = list(map(int, input().split()))
 
 times.sort()
 sumList = 0
+
 result = []
 
 for time in times:
