@@ -24,6 +24,7 @@ def bfs( start ):
             if matrix[currentNode][search_node] and search_node not in footPrints:
                 footPrints += [search_node]
                 queue += [search_node]
+                
     return footPrints
 
 print(*dfs(V, matrix, []))
