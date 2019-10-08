@@ -18,5 +18,4 @@ else:
         while number[i] > 0:
             result += str(i)
             number[i] -= 1
-
     print(result)
